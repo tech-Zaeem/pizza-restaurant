@@ -1,0 +1,19 @@
+body{
+    background-color: burlywood;
+    color: azure;
+}
+.form-text::after{
+    content: "we have a 5 star reveiw on trust";
+    display: inline-block;
+    height: 17px;
+    padding:1px 2px;
+    line-height: 19px;
+    font-size: 10px;
+    background: #fff;
+    text-shadow: none;
+    font-weight: 900;
+    letter-spacing: 0;
+    border-radius: 6px;
+    margin-right: 30px;
+    border: 2px solid #7dd8c9;
+}
